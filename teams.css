@@ -75,7 +75,7 @@
 .team-logo {
   height: 200px;
   width: 200px;
-  background-image: url("./assets/boston-bruins-logo.png");
+  background-image: url();
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -155,43 +155,9 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  
 }
-.Bruins {
-  background-image: url("./assets/boston-bruins-logo.png");
-}
-.canadiens {
-  background-image: url("./assets/Montreal_Canadiens.png");
-}
-.wings {
-  background-image: url("./assets/detroit.png");
-}
-.hawks {
-  background-image: url("./assets/blackhawks-logo-png-transparent.png");
-}
-.Senat {
-  background-image: url("./assets/ottawa-senators-6-logo-png-transparent.png");
-}
-.Island {
-  background-image: url("./assets/qyimikbajsdgx7ltetds.png");
-}
-.Flyers {
-  background-image: url("./assets/flyers.png");
-}
-.Panthers {
-  background-image: url("./assets/Unknown.png");
-}
-.Blues {
-  background-image: url("./assets/blues.png");
-}
-.Jets {
-  background-image: url("./assets/winnipeg-jets-logo.png");
-}
-.Avalanche {
-  background-image: url("./assets/ave.png");
-}
-.Stars {
-  background-image: url("./assets/star.jpeg");
-}
+
 .team-list {
   background: white;
   position: sticky;

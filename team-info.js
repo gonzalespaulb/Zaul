@@ -35,7 +35,7 @@ export const teams = [
   {
     name: "Lightning",
     from: "Tampa Bay",
-    logo: "lightning.jpeg",
+    logo: "lightning.png",
     players: [],
     wins: 0,
     losses: 0,
@@ -57,7 +57,7 @@ export const teams = [
   {
     name: "Panthers",
     from: "Florida",
-    logo: "Unknown.jpeg",
+    logo: "panthers.png",
     players: [],
     wins: 0,
     losses: 0,
@@ -68,7 +68,7 @@ export const teams = [
   {
     name: "Maple Leafs",
     from: "Toronto",
-    logo: "maple leafs.png",
+    logo: "maple-leafs.png",
     players: [],
     wins: 0,
     losses: 0,
@@ -101,7 +101,7 @@ export const teams = [
   {
     name: "Devils",
     from: "New Jersey",
-    logo: "devils",
+    logo: "devils.png",
     players: [],
     wins: 0,
     losses: 0,
@@ -145,7 +145,7 @@ export const teams = [
   {
     name: "Blue Jackets",
     from: "Columbus",
-    logo: "blue jackets.png",
+    logo: "blue-jackets.png",
     players: [],
     wins: 0,
     losses: 0,
@@ -200,7 +200,7 @@ export const teams = [
   {
     name: "Jets",
     from: "Winnipeg",
-    logo: "Uknown.jpeg",
+    logo: "jets.jpeg",
     players: [],
     wins: 0,
     losses: 0,
@@ -277,7 +277,7 @@ export const teams = [
   {
     name: "Golden Knights",
     from: "Vegas",
-    logo: "golden knights.png",
+    logo: "golden-knights.png",
     players: [],
     wins: 0,
     losses: 0,
