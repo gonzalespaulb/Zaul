@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+.main_container {
+    background-color: whitesmoke;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation {
+    width: 100%;
+    height: 85px;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    position: sticky;
+    top: 0;
+    background: whitesmoke;
+}
+
+.page-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+    overflow: hidden;
+}
+
+.grid {
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: minmax(min-content, max-content)minmax(min-content, max-content) minmax(min-content, max-content);
+    gap: 5px;
+}
+
+.area-1 {
+    grid-area: 1/1/3/3;
+    background-image: url("./assets/ovetchkin.avif");
+    background-size: cover;
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+.area-2 {
+    grid-area: 1/3/3/4;
+    font-size: 28px;
+    padding: 30px;
+}
+
+.area-3 {
+    grid-area: 3/1/4/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 5px;
+}
+
+.table {
+    background-color: white;
+    width: 100%;
+    max-width: 1200px;
+    min-height: 500px;
+}
+
+.label_row {
+    width: 100%;
+    height: 44px;
+    background-color: lightgray;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.cell {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.data_row {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    border-bottom: 1px solid black;
+
+}
+
+.data_row:hover {
+    background-color: #f0f0f0;
+    transition: 0.3s ease;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+}
+
+.card h4 {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.card span {
+    cursor: pointer;
+}
+
+.image {
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-size: cover;
+    margin-bottom: 8px;
+}
+
+.geekie {
+    background-image: url("./assets/geekie.jpeg");
+
+}
+
+.pasta {
+    background-image: url("./assets/david-pastrnak.jpg");
+
+}
+
+.kyle {
+    background-image: url("./assets/kyle.jpeg");
+
+}
+
+.logo {
+    color: blue;
+    font-size: 24px;
+    background: red;
+}
+
+a {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.links {
+    display: flex;
+    gap: 175px;
+}
+

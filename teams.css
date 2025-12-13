@@ -1,0 +1,201 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.navigation {
+  width: 100%;
+  height: 85px;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  position: sticky;
+  top: 0;
+  background: whitesmoke;
+}
+
+.logo {
+  color: blue;
+  font-size: 24px;
+  background: red;
+}
+
+.links {
+  display: flex;
+  gap: 175px;
+}
+
+.main_container {
+  background-color: whitesmoke;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.page-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 64px;
+  overflow: hidden;
+}
+
+.content {
+  min-height: calc(100vh - 85px);
+  display: grid;
+  width: 100%;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr;
+  max-width: 1200px;
+  align-items: start;
+}
+.team-info {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+.general {
+  height: auto;
+  width: 100%;
+  display: flex;
+}
+.team-logo {
+  height: 200px;
+  width: 200px;
+  background-image: url("./assets/boston-bruins-logo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.player-container {
+  height: auto;
+  width: 100%;
+}
+.card-grid {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: minmax(min-content, max-content);
+  gap: 4px;
+}
+.card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.player-photo {
+  width: 100%;
+  aspect-ratio: 1/1;
+  margin-bottom: 4px;
+}
+.Pastranak {
+  background-image: url("./assets/players/pasta.png");
+  border-right: 3px solid black;
+}
+.Zacha {
+  background-image: url("./assets/players/zacha.png");
+  border-right: 3px solid black;
+}
+.Geekie {
+  background-image: url("./assets/players/morgan.png");
+}
+.Lindholm {
+  background-image: url("./assets/players/elias.png");
+  border-right: 3px solid black;
+}
+.Nikita {
+  background-image: url("./assets/players/nikita.png");
+  border-right: 3px solid black;
+}
+.McAvoy {
+  background: url("./assets/players/charlie.png");
+}
+.Swayman {
+  background: url("./assets/players/jeremy.png");
+  border-right: 3px solid black;
+}
+.Joonas {
+  background-image: url("./assets/players/joonas.png");
+}
+.team-row {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 16px;
+  border-bottom: 2px solid black;
+}
+.team-list-logo {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Bruins {
+  background-image: url("./assets/boston-bruins-logo.png");
+}
+.canadiens {
+  background-image: url("./assets/Montreal_Canadiens.png");
+}
+.wings {
+  background-image: url("./assets/detroit.png");
+}
+.hawks {
+  background-image: url("./assets/blackhawks-logo-png-transparent.png");
+}
+.Senat {
+  background-image: url("./assets/ottawa-senators-6-logo-png-transparent.png");
+}
+.Island {
+  background-image: url("./assets/qyimikbajsdgx7ltetds.png");
+}
+.Flyers {
+  background-image: url("./assets/flyers.png");
+}
+.Panthers {
+  background-image: url("./assets/Unknown.png");
+}
+.Blues {
+  background-image: url("./assets/blues.png");
+}
+.Jets {
+  background-image: url("./assets/winnipeg-jets-logo.png");
+}
+.Avalanche {
+  background-image: url("./assets/ave.png");
+}
+.Stars {
+  background-image: url("./assets/star.jpeg");
+}
+.team-list {
+  background: white;
+  position: sticky;
+  top: 85px;
+  max-height: calc(100vh - 85px);
+  overflow: auto;
+}
