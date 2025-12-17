@@ -36,3 +36,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
   console.log(" Teams rendered:", teams.length);
 });
+
+
+const currentTeam = "Bruins";
+
+
+const bruinInfo = teams.find((team) => {
+  return team.name === currentTeam;
+});
+const general = document.querySelector(".general");
+const teamLogo = document.querySelector(".team-logo");
+
+// 1. Replace the logo 
+teamLogo.style.backgroundImage = `url(./assets/${bruinInfo.logo})`
+// 2. Replace the team name and from
+const info = document.querySelector(".info");
+// 3. Combine team name and team from
+info.innerHTML = `<h1>${bruinInfo.from} ${bruinInfo.name}</h1>
+              <h2>${bruinInfo.wins}-${bruinInfo.losses}-${bruinInfo.otLosses}</h2>`
+// 4. Replace team record
+
+// 5. Insert HTML into general 
+
