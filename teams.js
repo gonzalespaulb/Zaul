@@ -34,6 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
     teamList.appendChild(row);
   });
 
+
   console.log(" Teams rendered:", teams.length);
 });
 
@@ -41,20 +42,54 @@ document.addEventListener("DOMContentLoaded", () => {
 const currentTeam = "Bruins";
 
 
-const bruinInfo = teams.find((team) => {
+const foundTeam = teams.find((team) => {
   return team.name === currentTeam;
 });
 const general = document.querySelector(".general");
 const teamLogo = document.querySelector(".team-logo");
 
 // 1. Replace the logo 
-teamLogo.style.backgroundImage = `url(./assets/${bruinInfo.logo})`
+teamLogo.style.backgroundImage = `url(./assets/${foundTeam.logo})`
 // 2. Replace the team name and from
 const info = document.querySelector(".info");
 // 3. Combine team name and team from
-info.innerHTML = `<h1>${bruinInfo.from} ${bruinInfo.name}</h1>
-              <h2>${bruinInfo.wins}-${bruinInfo.losses}-${bruinInfo.otLosses}</h2>`
+info.innerHTML = `<h1>${foundTeam.from} ${foundTeam.name}</h1>
+              <h2>${foundTeam.wins}-${foundTeam.losses}-${foundTeam.otLosses}</h2>`
 // 4. Replace team record
 
 // 5. Insert HTML into general 
+
+
+
+const playerContainer = document.querySelector(".player-container");
+
+const {players} = foundTeam;
+
+const goalies = players.filter((player) => player.position === "Goalie");
+const Forwards = players.filter((player) => player.position === "Forward");
+const defense = players.filter((player) => player.position === "Defense");
+
+
+
+const positions = ["Forwards", "Defensemen", "Goalies"];
+
+  const teamInfo = document.querySelector(".team-info");
+
+const test = `
+ 
+
+`;
+
+
+teamInfo.appendChild(test);
+
+
+
+
+
+
+
+
+
+
 
