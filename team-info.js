@@ -45,6 +45,22 @@ lastName: "Gonzales",
 position: "Goalie",
 image: "morgan.png",
 }];
+const rangersPlayers = [{
+firstName: "Artemi",
+lastName: "Panarin",
+position: "Forward",
+image: "artemi.png"
+},{
+firstName: "Will",
+lastName: "Borgin",
+position: "Defense",
+image: "will.png"
+},{
+firstName: "Jonathan",
+lastName: "Quick",
+position: "Goalie",
+image: "jonathan.png"
+},]
 
 export const teams = [
   {
@@ -205,7 +221,7 @@ export const teams = [
     name: "Rangers",
     from: "New York",
     logo: "rangers.png",
-    players: [],
+    players: rangersPlayers,
     wins: 0,
     losses: 0,
     otLosses: 0,

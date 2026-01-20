@@ -1,5 +1,5 @@
 import { teams } from "./team-info.js";
-const currentTeam = "Bruins";
+const currentTeam = "Rangers";
 
 const foundTeam = teams.find((team) => {
   return team.name === currentTeam;
