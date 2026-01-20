@@ -39,6 +39,11 @@ firstName: "Joonas",
 lastName: "Korpisalo",
 position: "Goalie",
 image: "joonas.png"
+}, {
+firstName: "Paul",
+lastName: "Gonzales",
+position: "Goalie",
+image: "morgan.png",
 }];
 
 export const teams = [
@@ -47,9 +52,9 @@ export const teams = [
     from: "Boston",
     logo: "boston-bruins-logo.png",
     players: bruinsPlayers,
-    wins: 0,
-    losses: 0,
-    otLosses: 0,
+    wins: 28,
+    losses: 19,
+    otLosses: 2,
     conference: "Eastern Conference",
     division: "Atlantic Division",
   },
