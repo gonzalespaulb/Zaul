@@ -1,12 +1,60 @@
+
+const bruinsPlayers = [{
+firstName: "David",
+lastName: "Pastranak",
+position: "Forward",
+image: "pasta.png",
+},{
+firstName: "Pavel",
+lastName: "Zacha",
+position: "Forward",
+image: "zacha.png",
+},{
+firstName: "Morgan",
+lastName: "Geekie",
+position: "Forward",
+image: "morgan.png",
+},{
+firstName: "Elias",
+lastName: "Lindholm",
+position: "Defense",
+image: "elias.png",
+},{
+firstName: "Nikita",
+lastName: "Zadorov",
+position: "Defense",
+image: "nikita.png",
+},{
+firstName: "Charlie",
+lastName: "McAvoy",
+position: "Defense",
+image: "charlie.png",
+},{
+firstName: "Jeremy",
+lastName: "Swayman",
+position: "Goalie",
+image: "jeremy.png",
+},{
+firstName: "Joonas",
+lastName: "Korpisalo",
+position: "Goalie",
+image: "joonas.png"
+}, {
+firstName: "Paul",
+lastName: "Gonzales",
+position: "Goalie",
+image: "morgan.png",
+}];
+
 export const teams = [
   {
     name: "Bruins",
     from: "Boston",
     logo: "boston-bruins-logo.png",
-    players: [],
-    wins: 0,
-    losses: 0,
-    otLosses: 0,
+    players: bruinsPlayers,
+    wins: 28,
+    losses: 19,
+    otLosses: 2,
     conference: "Eastern Conference",
     division: "Atlantic Division",
   },
@@ -352,6 +400,8 @@ export const teams = [
     division: "Pacific Division",
   },
 ];
-
-
-
+// 
+// 
+// 
+// 
+// 

@@ -110,35 +110,6 @@
   aspect-ratio: 1/1;
   margin-bottom: 4px;
 }
-.Pastranak {
-  background-image: url("./assets/players/pasta.png");
-  border-right: 3px solid black;
-}
-.Zacha {
-  background-image: url("./assets/players/zacha.png");
-  border-right: 3px solid black;
-}
-.Geekie {
-  background-image: url("./assets/players/morgan.png");
-}
-.Lindholm {
-  background-image: url("./assets/players/elias.png");
-  border-right: 3px solid black;
-}
-.Nikita {
-  background-image: url("./assets/players/nikita.png");
-  border-right: 3px solid black;
-}
-.McAvoy {
-  background: url("./assets/players/charlie.png");
-}
-.Swayman {
-  background: url("./assets/players/jeremy.png");
-  border-right: 3px solid black;
-}
-.Joonas {
-  background-image: url("./assets/players/joonas.png");
-}
 .team-row {
   height: auto;
   width: 100%;
