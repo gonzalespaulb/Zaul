@@ -1,5 +1,5 @@
 import { teams } from "./team-info.js";
-const currentTeam = "Rangers";
+let currentTeam = "Rangers";
 
 const foundTeam = teams.find((team) => {
   return team.name === currentTeam;
@@ -14,8 +14,24 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
+
+
+  const changeTeam = () => {
+    currentTeam = "Bruins";
+    console.log(currentTeam);
+  }
+  
+
+
+
+
   teams.forEach((team) => {
     const row = document.createElement("div");
+
+
+  row.addEventListener("click", changeTeam);
+
+
 
     row.className = "team-row";
 
